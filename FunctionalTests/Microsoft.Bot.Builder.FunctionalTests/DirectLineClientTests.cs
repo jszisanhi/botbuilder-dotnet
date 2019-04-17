@@ -87,7 +87,7 @@ namespace Microsoft.Bot.Builder.FunctionalTests
                 // Analyze each activity in the activity set.
                 foreach (Activity activity in activities)
                 {
-                    if (activity.Type == ActivityTypes.Message && activity.Text != "Welcome to Echo Bot")
+                    if (activity.Type == ActivityTypes.Message && activity.Text != "Welcome to Echo Bot.")
                     {
                         answer = activity.Text;
                     }
